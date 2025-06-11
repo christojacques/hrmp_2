@@ -48,7 +48,6 @@ if (mysqli_num_rows($emodulessql)>0) {
     </style>
 </head>
 <body>
-<h1>Hi</h1>
 <div class="login-container">
     <h1>Sélectionner votre profil</h1>
     <?php 
