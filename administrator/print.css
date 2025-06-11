@@ -1,0 +1,8 @@
+body * {
+    display: none;
+}
+
+/* Display only the printable div and its content */
+#printableDiv, #printableDiv * {
+    display: block !important;
+}

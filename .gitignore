@@ -1,0 +1,9 @@
+signature-img/
+employee_images/
+leave_doc/
+attendance_photo/
+guard_images/
+
+*.zip
+*.html
+config.php
