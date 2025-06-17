@@ -9,7 +9,7 @@ class attendence{
 	}
 
 	public function showattendence($date){
-		//$date=date('d-m-Y');
+        $date=date('Y-m-d',strtotime($date));
 		$sql=mysqli_query($this->db,"SELECT fname,lname,job_title,dob,dates,attend_type,entry_dt,exit_dt,atten_id FROM `attendance` JOIN `employees` ON  `employees`.`eid`= `attendance`.`employee_id` WHERE `dates`='$date'");
 		if (mysqli_num_rows($sql)>0) {
 			while ($fetch_atten=mysqli_fetch_assoc($sql)) {
