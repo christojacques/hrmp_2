@@ -50,6 +50,7 @@ if (mysqli_num_rows($emodulessql)>0) {
 <body>
 <div class="login-container">
     <h1>Sélectionner votre profil</h1>
+    <h1>Main Page</h1>
     <?php 
     if ($gfetchmodule['module_status']!='0') {
         echo '<a href="guard/index" class="btn btn-warning login-btn" >Gardien</a>';
